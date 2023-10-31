@@ -1,7 +1,7 @@
 
 <template>
   <div class="Main">
- <ProfileHeaderAvatar/>
+        Main Page
   </div>
 </template>
 <script setup lang="ts">
