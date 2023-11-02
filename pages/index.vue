@@ -1,7 +1,8 @@
 
 <template>
   <div class="Main">
-        Main Page
+        Hello Nuxt 3
+        <IconesBell/>
   </div>
 </template>
 <script setup lang="ts">
