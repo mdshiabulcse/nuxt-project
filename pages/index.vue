@@ -1,15 +1,11 @@
 <script setup >
-const counter = useCounter()
+import {useCounterStore} from "~/stores/myStore.js";
+const store=useCounterStore();
+console.log(store);
 </script>
 
 <template>
-  <div>
-    Counter: {{ counter }}
-    <button @click="counter++">
-      +
-    </button>
-    <button @click="counter--">
-      -
-    </button>
-  </div>
+ <div>
+
+ </div>
 </template>
